@@ -1,0 +1,56 @@
+.new-tweet {
+  margin: auto;
+}
+
+.form-inline {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.error {
+  display: flex;
+  color: #ff0000;
+}
+
+.textbox {
+  color: #545149;
+  background-color: #f4f1ec;
+  font-size: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
+  border-style: solid;
+  border-width: 0px 0px 5px 0px;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+.button {
+  color: #FFFFFF;
+  background-color: #4056A1;
+  font-size: 24px;
+  font-family: 'Bungee', cursive;
+  border-style: solid;
+  border-width: 0px 0px 0px 0px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  display: flex;
+  float: left;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.counter {
+  font-size: 24px;
+  font-family: 'Bungee', cursive;
+  display: flex;
+  float: right;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.toggleRed {
+  color: red;
+}

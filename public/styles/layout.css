@@ -18,8 +18,88 @@ body {
   color: #545149;
   background-color: #f4f1ec;
   font-size: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+  width: 100%
 }
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
+main {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f4f1ec;
+}
+
+.tweet-container header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tweet-container {
+  flex-direction: row;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+}
+
+.individual-tweet {
+  border-style: solid;
+  border-width: 5px 5px 5px 5px;
+  margin: 10px;
+  padding: 15px;
+}
+
+.tweet-container .profile-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.individual-tweet:hover {
+  box-shadow: 10px 10px #8899ff;
+}
+
+.pic {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.display-name {
+  display: flex;
+  font-size: 24px;
+  flex-direction: row;
+  margin-left: 1em;
+}
+
+.username {
+  color: #f4f1ec;
+  display: flex;
+  font-size: 22px;
+  float: right;
+  margin-right: 1em;
+  padding-top: 5px;
+}
+
+.individual-tweet:hover .username {
+  color: #8899ff;
+}
+
+.footer-elements {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.flag-rt-like {
+  color: #4056A1;
+}

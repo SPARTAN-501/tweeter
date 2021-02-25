@@ -1,0 +1,25 @@
+.nav {
+  color: #FFFFFF;
+  background-color: #4056A1;
+  font-size: 24px;
+  line-height: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  width: inherit;
+ }
+
+ .logo {
+  font-size: 36px;
+  font-family: 'Bungee', cursive;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-between; */
+ }
+
+ /* .navtext {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ } */
