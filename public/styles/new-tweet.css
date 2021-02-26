@@ -1,9 +1,5 @@
-.new-tweet {
-  margin: auto;
-}
-
 .form-inline {
-  width: 700px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,6 +19,10 @@
   border-width: 0px 0px 5px 0px;
   margin-bottom: 5px;
   padding: 10px;
+}
+
+#tweet-text {
+  font-weight: bold;
 }
 
 .button {

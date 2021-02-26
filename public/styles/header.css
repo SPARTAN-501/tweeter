@@ -1,20 +1,57 @@
-.header {
-  font-size: 24px;
-  line-height: 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #44d62c;
-  background-image: url("https://www.transparenttextures.com/patterns/bright-squares.png");
-  position: -1;
-  padding-top: 120px;
+/* Another tablet breakpoint is maximum width of 1024px */
+@media only screen and (max-width: 1024px) {
+  /* Write CSS rules that target Tablets screen sizes downwards - including smartphones */
+  .header {
+    font-size: 28px;
+    color: #f4f1ec;
+    line-height: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    background-image: url("https://www.transparenttextures.com/patterns/bright-squares.png");
+    position: -1;
+    padding-top: 120px;
+  }
+  
+  .h2 {
+    font-size: 28px;
+    font-weight: lighter;
+    line-height: 40px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }  
 }
 
-.h2 {
-  font-size: 24px;
-  line-height: 40px;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
+/* Laptops / Desktops: minimum width of 1024px */
+@media only screen and (min-width: 1024px) {
+  /* Write CSS rules that target Laptop/Desktop screen sizes and beyond */
+  .header {
+    font-size: 28px;
+    color: #f4f1ec;
+    line-height: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: orange;
+    background-image: url("https://www.transparenttextures.com/patterns/bright-squares.png");
+    position: -1;
+    margin: auto;
+    margin-left: 5rem;
+    margin-top: 10rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  
+  .h2 {
+    font-size: 28px;
+    font-weight: lighter;
+    line-height: 40px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }  
 }

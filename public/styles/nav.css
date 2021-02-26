@@ -10,16 +10,21 @@
   width: inherit;
  }
 
- .logo {
-  font-size: 36px;
-  font-family: 'Bungee', cursive;
-  /* display: flex;
-  flex-direction: row;
-  justify-content: space-between; */
- }
+a {
+  color: inherit;
+  text-decoration: none;
+}
 
- /* .navtext {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
- } */
+.logo {
+font-size: 36px;
+font-family: 'Bungee', cursive;
+}
+
+/* Another tablet breakpoint is maximum width of 1024px */
+@media only screen and (max-width: 1024px) {
+/* Write CSS rules that target Tablets screen sizes downwards - including smartphones */
+  .nav {
+    background-color: orange;
+    background-image: url("https://www.transparenttextures.com/patterns/bright-squares.png");
+  }
+}
