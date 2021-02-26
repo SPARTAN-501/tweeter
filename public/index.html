@@ -3,6 +3,7 @@
   <head>
     <!-- Meta Information -->
     <title>Tweeter - Home Page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
 
     <!-- External CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" type="text/css" />
@@ -31,7 +32,7 @@
     <!-- Top nav bar (fixed) -->
     <nav class="nav">
       <span class="logo" style="margin-left: 1.5em">tweeter</span>
-      <span style="margin-right: 1.5em"><strong>Write</strong> a new tweet</span>
+      <span style="margin-right: 1.5em"><a href="#write-tweet"><strong>Write</strong> a new tweet</a></span>
     </nav>
 
     <header class="header">
@@ -46,12 +47,11 @@
 
     <!-- Page-specific (main) content here -->
     <main class="container">
-      <section class="new-tweet">
+      <section class="new-tweet" id="write-tweet">
         <h2>Compose Tweet</h2>
         <form class="form-inline" action="/tweets" method="POST">
           <div>
             <p class="error">
-
             </p>
           </div>
           <!-- <label for="tweet-text">What are you humming about?</label> -->
@@ -64,7 +64,6 @@
       </section>
       <br>
       <section class="tweet-container">
-
       </section>
     </main>
   </body>
