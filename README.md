@@ -2,7 +2,7 @@
 
 Tweeter is a simple, single-page Twitter clone.
 
-This repository is the starter code for the project: Students will fork and clone this repository, then build upon it to practice their HTML, CSS, JS, jQuery and AJAX front-end skills, and their Node, Express and MongoDB back-end skills.
+Write a tweet and see it posted on the same page! Username and profile pic will be generated automatically. The most recent tweets are shown at the top of the list. The site is also responsive, with different layouts depending on the device you're using.
 
 ## Getting Started
 
@@ -15,3 +15,9 @@ This repository is the starter code for the project: Students will fork and clon
 
 - Express
 - Node 5.10.x or above
+
+## Screenshots
+
+!["Screenshot of tweet compose box (desktop)"](https://github.com/SPARTAN-501/tweeter/blob/master/docs/compose-desktop.jpeg)
+!["Screenshot of tweet compose box (mobile)"](https://github.com/SPARTAN-501/tweeter/blob/master/docs/compose-mobile.jpeg)
+!["Screenshot of error with overflowing character counter"](https://github.com/SPARTAN-501/tweeter/blob/master/docs/error.jpeg)
