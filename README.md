@@ -2,7 +2,7 @@
 
 Tweeter is a simple, single-page Twitter clone.
 
-Write a tweet and see it posted on the same page! Username and profile pic will be generated automatically. The most recent tweets are shown at the top of the list. The site is also responsive, with different layouts depending on the device you're using.
+Write a tweet and see it posted on the same page! Username and profile pic will be generated automatically. The most recent tweets are shown at the top of the list (with readable timestamps). The site is also responsive, with different layouts depending on the device you're using.
 
 ## Getting Started
 
